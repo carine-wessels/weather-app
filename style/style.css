@@ -1,0 +1,55 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+  color: #6c757d;
+}
+
+.card {
+  background-color: transparent;
+}
+.outside {
+  display: block;
+  margin: 0 auto;
+  background-color: #d1f0ee;
+  padding: 10px;
+}
+.city {
+  font-weight: 600;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.temperature {
+  font-weight: 600;
+  font-size: 60px;
+}
+.main_weather_emoji {
+  border: none;
+}
+.city_details {
+  border: none;
+}
+.weather_details {
+  border: none;
+  padding-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.forecast_day {
+  text-align: center;
+  margin-inline: 0px;
+  border-color: white;
+  border-radius: 0.25rem;
+  padding: 10px;
+}
+:hover.forecast_day {
+  background-color: #c0dbd9;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.day {
+  margin-top: 10px;
+}
+.min_max {
+  margin-bottom: 10px;
+}
